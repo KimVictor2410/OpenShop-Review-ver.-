@@ -1,5 +1,6 @@
 const navbarBtn = document.querySelector('.navbar-btn')
 const navbarNav = document.querySelector('.navbar-nav')
+const navbarTop = document.querySelector('.navbar-top')
 
 navbarBtn.addEventListener('click', function(){
   if(navbarBtn.classList.contains('active')){
